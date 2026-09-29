@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #0a141c;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main{
+    height: 19%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: -9px;
+}
+
+main .left h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+    margin-left: -70px;
+}
+
+main .left h1:hover{
+    filter: drop-shadow(0px 0px 15px #084f96);
+}
+
+main .middle{
+    display: flex;
+    gap: 50px;
+    font-size: 10px;
+    color: white;
+    opacity: 0.8;
+    margin-top: 15px;
+}
+
+main .middle h3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+main .middle .box2{
+    height: 60px;
+    width: 1px;
+    background-color: white;
+    position: relative;
+    left: 10%;
+}
+
+main .right button{
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+    background-color: #0b1520;
+    filter: drop-shadow(0px 0px 2px white);
+    color: white;
+    position: relative;
+    left: 50%;
+}
+
+main .right button:hover{
+    cursor: pointer;
+}
+
+
+main .right button h3{
+    font-size: 15px;
+}
+
+main .right button span{
+    font-size: 20px;
+}
+
+main h5{
+    position: absolute;
+    top: 2.5%;
+    left: 3%;
+    color: #56778f;
+}
+
+.container1{
+    height: 60%;
+    width: 94.1%;
+    margin: auto;
+    display: flex;
+    gap: 15px;
+}
+
+.container1 .left{
+    height: 100%;
+    width: 40%;
+    background-image: url(./Frame.jpg);
+    background-position: center 37%;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.container1 .right{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 .right .box{
+    height: 100%;
+    width: 32%;
+    background-color: #1d3144;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.container1 .right .box .div1{
+    height: 70%;
+    width: 100%;
+    background-image: url(./Discover\ Goodmove\ Skiwear.jpg);
+    background-size: cover;
+    background-position: center 1%;
+}
+
+.container1 .right .box .div2 h4{
+    color: white;
+}
+
+.circle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: -5px;
+}
+
+.container1 .right .box .div2 .content .part2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.container1 .right .box .div2 h5{
+    color: white;
+}
+
+.container1 .right .box .div2{
+    height: 30%;
+}
+
+
+.container1 .right .box .div2 .content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5px;    
+} 
+
+.container1 .right .box:nth-child(2) .div1{
+    background-image: url(./A\ few\ favourites\ from\ a\ recent\ shoot\ for\ @trailbergofficial\ &\ @thermoreofficial\ 🧊❄️__Shout\ to\ the\ crew_Creative_\ @calrisin_co\ _\ @tgb1rch_DOP_\ @paddygomulski_1st\ AC_\ @sean___lomax_Set\ build_\ @richarddeanhughes_Light.jpg);
+    background-position: center;
+}
+
+.container1 .right .box:nth-child(3) .div1{
+    background-image: url(./Snow.jpg);
+}
+
+.container2{
+    display: flex;
+    height: 63%;
+    width: 94.1%;
+    margin: auto;
+    margin-top: 20px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.container2 .box{
+    height: 100%;
+    width: 25%;
+    background-color: #1d3144;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.container2 .box .div1{
+    height: 74%;
+    width: 100%;
+    background-image: url(./Drift.jpg);
+    background-size: cover;
+    background-position: center 100%; 
+}
+
+.container2 .box .div2{
+    height: 26%;
+    width: 100%;
+    display: flex;
+    margin-left: 5px;
+}
+
+.container2 .box .div2 .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container2 .box .div2 .part1{
+    margin-top: 2px;
+}
+
+.container2 .box .div2 .content .part2{
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+
+.container2 .box .div2 h4{
+    color: white;
+}
+
+.container2 .box .div2 .part2{
+    display: flex;
+}
+
+.container2 .box .div2 h5{
+    color: white;
+}
+
+.container2 .box:nth-child(2) .div1{
+    background-image: url(./Lana\ Shell.jpg);
+    background-position: center 10%;
+}
+
+.container2 .box:nth-child(3) .div1{
+    background-image: url(./ivan\ lukov\ •\ from\ lukov\ with\ love.jpg);
+}
+
+.container2 .box:nth-child(4) .div1{
+    background-image: url(./Frozen.jpg);
+}
+
+.container3{
+    height: 20%;
+    width: 94.3%;
+    margin: auto;
+    background-color: #020e18;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.container3 .box{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container3 .box .div1 i{
+    font-size: 45px;
+    color: white;
+    cursor: pointer;
+}
+
+.container3 .box .div1 i:hover{
+    filter: brightness(0.5)
+}
+
+.container3 .box .content h4{
+    font-size: 17px;
+    color: white;
+}
+
+.container3 .box .content p{
+    color: white;
+}
+
+.container3 .box .line{
+    height: 50px;
+    width: 1.5px;
+    background-color: black;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.container3 .line{
+    position: relative;
+    left: 10%;
+}
+
+.container4{
+    height: 15%;
+    width: 94.1%;
+    margin: auto;
+    background-color: darkslateblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+    background-color: #020e18;
+    margin-top: 20px;
+}
+
+.container4 .left{
+    height: 70%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-right: 100px;
+}
+
+.container4 .left .div1 img{
+    height: 90px;
+}
+
+.container4 .left p{
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.container4 .left p:hover{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.container4 .middle{
+    display: flex;
+    gap: 30px;
+    height: 70%;
+    width: fit-content;
+    align-items: center;
+    position: relative;
+    right: 4%;
+}
+
+.container4 .middle h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 100;
+}
+
+.container4 .middle h4:hover{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    cursor: pointer;
+}
+
+.container4 .right{
+    height: 70%;
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.container4 .right h4{
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+}
+
+.container4 .right h4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.container4 .right i{
+    font-size: 25px;
+    color: white;
+}
+
+.container4 .right i:hover{
+    cursor: pointer;
+    filter: brightness(0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
